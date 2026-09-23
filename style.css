@@ -1,0 +1,924 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+span, a {
+    display: inline-block;
+}
+
+img {
+    width: 50%;
+    max-width: 100%;
+}
+
+.hero-section {
+    padding-block: 30px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+
+.clr {
+    clear: both;
+}
+
+.contact-info p {
+    color: #6a7282;
+}
+
+.subtitle {
+    width: 55%;
+    height: 80%;
+    float: left;
+    padding-right: 22px;
+    padding-top: 20px;
+    line-height: 1.2;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.heading p {
+    margin: 20px 0 20px 0;
+    padding-bottom: 10px;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #4a556add;
+}
+
+.img-container {
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+img {
+    margin-top: 20px;
+    width: 400px;
+    height: 384px;
+    object-fit: cover;
+    border-radius: 16px;
+    float: left;
+}
+
+.hero-section p {
+    margin-inline: auto;
+    width: 100%;
+    height: auto;
+    padding-block: 15px;
+}
+
+.heading {
+  
+
+    padding: 35px 40px 25px 80px;
+    margin: 20px 40px 20px 80px;
+}
+
+button {
+    padding: 18px 23px;
+    width: fit-content;
+    height: 63px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.title p {
+    color: #4a5565;
+}
+
+.learn-button {
+    color: black;
+    background-color: white;
+}
+
+.start-button {
+    color: white;
+    background-color: black;
+    margin-right: 5px;
+}
+
+.why-choose-us {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.more-benefits {
+    width: 100%;
+    padding-block: 30px;
+}
+
+.image img {
+    width: 70%;
+    height: auto;
+}
+
+.content {
+    width: 50%;
+    margin: 20px;
+}
+
+.content-sub {
+    width: 88%;
+    margin-left: 10px;
+}
+
+.content-sub p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0;
+    color: #4a556a;
+}
+
+.content-sub h4 {
+    font-size: 20px;
+}
+
+.content-sub h3 {
+    font-size: 30px;
+    margin: 0 0 7px 0;
+}
+
+.content, .img {
+    float: left;
+}
+
+.benefits {
+    border-left: 4px solid #1a1a2e;
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+
+.image {
+    width: 60%;
+    height: auto;
+}
+
+.benefits h4 {
+    font-weight: bold;
+}
+
+.member-title p {
+    color: #6a7282;
+}
+
+.container {
+    padding: 12px 90px 25px 90px;
+    margin: 20px 80px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 2.25rem;
+    font-weight: bolder;
+}
+
+.title p {
+    font-size: 20px;
+    padding-block: 30px;
+}
+
+.benfit-cards {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+
+.card-blue {
+    background-color: #dbeafe;
+    border: #bedbff 1px solid;
+}
+
+.card-blue,
+.card-green,
+.card-pink {
+    width: 32%;
+    height: 260px;
+    border-radius: 20px;
+    float: left;
+    margin: 0;
+}
+
+.card-blue,
+.card-green {
+    margin-right: 1.8%;
+}
+
+.rectangle {
+    width: 64px;
+    height: 64px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    background-color: #155dfc;
+    overflow: auto;
+    border-radius: 13px;
+}
+
+.square {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    margin: 16px;
+    padding-inline: 16px;
+    border-radius: 9px;
+}
+
+.circle {
+    width: 64px;
+    height: 64px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    background-color: #009966;
+    overflow: auto;
+    border-radius: 13px;
+}
+
+.inner-circle {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    margin: 16px;
+    padding-inline: 16px;
+    border-radius: 15px;
+}
+
+.card-pink {
+    background-color: #f3e8ff;
+    border: #e6dbf2 1px solid;
+}
+
+.card-green {
+    background-color: #d0fae5;
+    border: #a4f4cf 1px solid;
+}
+
+.rectangle-purple {
+    width: 64px;
+    height: 64px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    background-color: #9810fa;
+    overflow: auto;
+    border-radius: 13px;
+}
+
+.square-pink {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    margin: 16px;
+    padding-inline: 16px;
+    border-radius: 5px;
+}
+
+.benefit-card-content {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.benefit-card-content p {
+    font-size: 14px;
+    line-height: 1.4;
+    padding-block: 20px;
+    color: #364153;
+}
+
+.card-content {
+    margin-block: 35px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+.members {
+    margin-top: 10px;
+    margin-inline: auto;
+    background-color: #f9fafb;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.member-container {
+    padding: 50px 90px 25px 90px;
+    margin: 20px 80px;
+}
+
+.member-title {
+    text-align: center;
+    line-height: 2;
+}
+
+.member-title h2 {
+    font-size: 36px;
+}
+
+.member-title h4 {
+    font-size: 32px;
+}
+
+.member-title p {
+    font-size: 20px;
+}
+
+.review-cards {
+    width: 100%;
+    margin-inline: auto;
+    margin-block: 50px;
+    padding-bottom: 30px;
+}
+
+.review-blue,
+.review-green,
+.review-pink {
+    width: 32%;
+    height: 260px;
+    border-radius: 20px;
+    float: left;
+    margin: 0;
+}
+
+.review-blue,
+.review-green {
+    margin-right: 1.8%;
+}
+
+.review-pink {
+    background-color: #f3e8ff;
+    border: #e6dbf2 1px solid;
+}
+
+.review-green {
+    background-color: #d0fae5;
+    border: #bfebd5 1px solid;
+}
+
+.review-blue {
+    background-color: #dbeafe;
+    border: #c9d7eb 1px solid;
+}
+
+.review-card-content {
+    margin-inline: 15px;
+    padding: 32px;
+    color: rgb(0, 0, 0);
+}
+
+.review-card-content h4 {
+    font-size: 18px;
+}
+
+.review-card-content p {
+    font-size: 16px;
+}
+
+.review-img img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+}
+
+.review-img {
+    margin: 16px;
+}
+
+.available {
+    padding-top: 35px;
+}
+
+.statics {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 180px;
+    border-radius: 20px;
+    float: left;
+    background-color: #f1f5f9;
+    display: flex;
+    align-items: center;
+}
+
+.items {
+    padding: 46px;
+    width: 100%;
+}
+
+.item {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.item h4 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.item p {
+    font-size: 16px;
+    color: grey;
+}
+
+.name {
+    float: left;
+}
+
+.contact-box {
+    background-color: #f9fafb;
+    border-radius: 15px;
+    padding: 50px;
+    width: fit-content;
+    height: fit-content;
+    margin-inline: auto;
+}
+
+.contact-form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.contact-content {
+    margin-inline: auto;
+    margin-block: 50px;
+    padding-bottom: 30px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.name input {
+    padding-block: 16px;
+    width: 380px;
+    height: fit-content;
+}
+
+.name #fname {
+    margin-right: 10px;
+}
+
+.contact-box input {
+    padding-block: 24px;
+    border-radius: 8px;
+    margin-block: 15px;
+    border: 1px rgba(128, 128, 128, 0.586) solid;
+}
+
+#phone, #email {
+    width: 770px;
+    padding-block: 24px;
+}
+
+#membership {
+    width: 770px;
+    font-size: 18px;
+    padding-block: 24px;
+    padding-inline: 15px;
+    border-radius: 8px;
+    margin-block: 15px;
+    border: 1px rgba(128, 128, 128, 0.586) solid;
+}
+
+.contact-box ::placeholder {
+    font-size: 18px;
+    padding-inline: 15px;
+}
+
+textarea {
+    width: 770px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+    margin-block: 15px;
+    border: 1px rgba(128, 128, 128, 0.586) solid;
+}
+
+.contact-form label {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.contact-box button {
+    width: 770px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+    margin-block: 15px;
+    border: 1px rgba(128, 128, 128, 0.586) solid;
+    background-color: black;
+    color: white;
+}
+
+.contact-box p {
+    text-align: center;
+}
+
+.contact-info {
+    padding-block: 30px;
+}
+
+.contact-info h2 {
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #101828;
+    padding: 80px 40px;
+    color: white;
+}
+
+.inner-footer {
+    max-width: 80%;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.column-1 {
+    float: left;
+    width: 46%;
+}
+
+.column-1 .desc {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 10px;
+    color: #98A2B3;
+}
+
+.column-1 h3 {
+    font-size: 30px;
+}
+
+.column-2 {
+    float: left;
+    width: 22%;
+    margin-left: 5%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-2 .details {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 10px;
+    color: #98A2B3;
+}
+
+.column-2 h4 {
+    font-size: 20px;
+}
+
+.contact-head {
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.socials {
+    margin-top: 15px;
+}
+
+.social {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 10px;
+    color: #98A2B3;
+}
+
+.hr {
+    margin-top: 40px;
+    border: 0.5px solid #364153;
+}
+
+.right {
+    float: left;
+    font-size: 14px;
+    margin: 0 24px 0 0;
+    margin-top: 20px;
+    align-content: end;
+}
+
+.right {
+    text-align: right;
+    color: #6a7282;
+}
+
+.rights {
+    margin-right: 0;
+    float: right;
+}
+
+.right-reserved {
+    float: left;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: #6a7282;
+}
+
+.social a {
+    color: #98A2B3;
+    text-decoration: none;
+}
+
+.details a {
+    color: #98A2B3;
+    text-decoration: none;
+}
+
+.right a {
+    color: #6a7282;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding-block: 15px;
+        margin-bottom: 25px;
+    }
+
+    .heading {
+        padding: 20px 10px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .heading p {
+        font-size: 16px;
+    }
+
+    .subtitle {
+        width: 100%;
+        float: none;
+        padding-right: 0;
+    }
+
+    .start-button,
+    .learn-button {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .img-container {
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .img-container img,
+    img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        float: none;
+        margin-inline: auto;
+        display: block;
+    }
+
+    .why-choose-us {
+        padding-bottom: 20px;
+    }
+
+    .container,
+    .member-container {
+        padding: 20px 15px;
+        margin: 0;
+    }
+
+    .title h2,
+    .member-title h2,
+    .member-title h4,
+    .contact-info h2 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    .title p,
+    .member-title p,
+    .contact-info p {
+        font-size: 14px;
+        padding-block: 15px;
+    }
+
+    .benfit-cards,
+    .review-cards {
+        padding-top: 15px;
+        margin-block: 15px;
+    }
+
+    .card-blue,
+    .card-green,
+    .card-pink {
+        width: 100%;
+        float: none;
+        margin: 0 0 20px 0;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .card-blue,
+    .card-green {
+        margin-right: 0;
+    }
+
+    .rectangle,
+    .circle,
+    .rectangle-purple {
+        width: 64px;
+        height: 64px;
+        margin-inline: auto;
+        margin-bottom: 20px;
+        border-radius: 13px;
+    }
+
+    .square,
+    .inner-circle,
+    .square-pink {
+        width: 32px;
+        height: 32px;
+        margin: 16px;
+    }
+
+    .more-benefits {
+        padding-block: 20px;
+    }
+
+    .image {
+        width: 100%;
+        float: none;
+        margin: 0 0 15px 0;
+    }
+
+    .image img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 16px;
+        margin: 0 auto;
+    }
+
+    .content {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    .content-sub {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .review-blue,
+    .review-green,
+    .review-pink {
+        width: 100%;
+        float: none;
+        margin: 0 0 20px 0;
+        height: auto;
+    }
+
+    .review-blue,
+    .review-green {
+        margin-right: 0;
+    }
+
+    .review-img img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .statics {
+        height: auto;
+        display: block;
+    }
+
+    .items {
+        padding: 20px;
+    }
+
+    .item {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .contact-box {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+    .name {
+        float: none;
+        width: 100%;
+    }
+
+    .name input {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #phone,
+    #email,
+    #membership,
+    textarea,
+    .contact-box button {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .inner-footer {
+        max-width: 100%;
+    }
+
+    .column-1 {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-bottom: 25px;
+        clear: both;
+    }
+
+    .column-2 {
+        width: 100%;
+        float: none;
+        clear: both;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    .socials {
+        overflow: hidden;
+        margin-top: 10px;
+        clear: both;
+    }
+
+    .social {
+        float: none;
+        display: inline-block;
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+
+    .column-2 h4 {
+        display: block;
+        clear: both;
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+
+    .column-2 .details {
+        display: block;
+        margin-top: 8px;
+    }
+
+    .right-reserved,
+    .rights {
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .right {
+        float: none;
+        display: inline-block;
+        margin: 5px 10px;
+    }
+}
